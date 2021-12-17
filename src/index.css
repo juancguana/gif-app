@@ -61,8 +61,9 @@ ol {
   padding: 0;
 }
 
-.loading {
-  text-align: center;
+.loading img{
+  display: block;
+  margin: 0 auto;
 }
 
 .card-grid {
