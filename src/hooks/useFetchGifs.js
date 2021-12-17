@@ -13,6 +13,8 @@ export const useFetchGifs = (category) => {
         data: imgs,
         loading: false,
       });
+    }).catch(error => {
+      console.error(error.message);
     });
   }, [category]);
 

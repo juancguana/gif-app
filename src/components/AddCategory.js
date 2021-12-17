@@ -19,6 +19,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <p>{inputValue}</p>
       <input type='text' value={inputValue} onChange={handleInputChange} />
     </form>
   );
@@ -28,4 +29,4 @@ AddCategory.propTypes = {
   setCategories: PropTypes.func.isRequired,
 };
 
-export default AddCategory;
+export { AddCategory };
