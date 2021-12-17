@@ -19,7 +19,7 @@ describe('Test in <AddCategory />', () => {
     const input = wrapper.find('input');
     const value = 'Hello world';
     input.simulate('change', { target: { value } });
-    expect(wrapper.find('p').text().trim()).toBe(value);
+    expect(wrapper.find('h3').text().trim()).toBe(value.toUpperCase());
   });
 
   test('should not post info with submit', () => {

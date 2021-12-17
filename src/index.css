@@ -3,15 +3,66 @@
 }
 
 body {
-  padding: 60px;
+  padding: 10px, 50px;
   background-color: #21232a;
   color: white;
+}
+
+h1 {
+  color: #71eff3;
+  text-shadow: 2.5px 2.5px 5px #5fe9e971;
+  font-size: 4.8rem;
+  text-align: center;
+  transition: 250ms;
+}
+
+h1:hover {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+h3 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+form {
+  display: grid;
+  place-items: center;
 }
 
 input {
   color: gray;
   font-size: 1.2rem;
-  width: 100%;
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 50px;
+  border: 0.2rem solid #fff;
+  box-shadow: 0px 0px 10px 10px #5fe9e971;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  transition: 500ms;
+}
+
+input:hover,
+.card:hover {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #0fa, 0 0 0.8rem #0fa,
+    0 0 2.8rem #0fa, inset 0 0 1.3rem #0fa;
+}
+
+ol {
+  margin: 0 3rem;
+  padding: 0;
+}
+
+.loading {
+  text-align: center;
 }
 
 .card-grid {
@@ -23,19 +74,32 @@ input {
 .card {
   background-color: #29232a;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 25px 0px 25px 0px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  margin: 10px auto;
+  margin: 15px auto;
   overflow: hidden;
 }
 
 .card figcaption {
-  padding: 25px;
+  padding: 15px;
   text-align: center;
+  font-size: 0.8rem;
+  word-wrap: break-word;
+  display: none;
 }
 
 .card img {
   display: block;
+  border-radius: 25px 0px 25px 0px;
   margin: 0 auto;
   max-height: 170px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: xx-large;
+  }
+  input {
+    height: 1.5rem;
+  }
 }

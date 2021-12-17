@@ -4,11 +4,11 @@ exports[`Test in <AddCategory /> should show correctly 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <p />
   <input
     onChange={[Function]}
     type="text"
     value=""
   />
+  <h3 />
 </form>
 `;

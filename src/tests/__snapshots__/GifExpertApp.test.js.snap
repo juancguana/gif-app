@@ -2,19 +2,21 @@
 
 exports[`Test in <GifExpertApp /> should show a categories list 1`] = `
 <Fragment>
-  <h2>
-    GiftExpertApp
-  </h2>
+  <h1>
+    Gift Expert App
+  </h1>
   <AddCategory
     setCategories={[Function]}
   />
   <ol>
     <GifGrid
       category="One Punch"
+      id="One Punch"
       key="One Punch"
     />
     <GifGrid
       category="Dragon Ball"
+      id="Dragon Ball"
       key="Dragon Ball"
     />
   </ol>
@@ -23,9 +25,9 @@ exports[`Test in <GifExpertApp /> should show a categories list 1`] = `
 
 exports[`Test in <GifExpertApp /> should show corectly 1`] = `
 <Fragment>
-  <h2>
-    GiftExpertApp
-  </h2>
+  <h1>
+    Gift Expert App
+  </h1>
   <AddCategory
     setCategories={[Function]}
   />

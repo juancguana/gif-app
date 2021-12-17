@@ -12,7 +12,7 @@ const GifGrid = ({ category }) => {
         {category.toUpperCase()}
       </h3>
       {loading && (
-        <p className='animate__animated animate__flash'>Loading...</p>
+        <p className='animate__animated animate__flash loading'>Loading...</p>
       )}
       <main className='card-grid'>
         {images.map((img) => (

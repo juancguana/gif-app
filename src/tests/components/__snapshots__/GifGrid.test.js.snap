@@ -8,7 +8,7 @@ exports[`Test in <GifGrid /> should show the component correctly 1`] = `
     SPIDERMAN
   </h3>
   <p
-    className="animate__animated animate__flash"
+    className="animate__animated animate__flash loading"
   >
     Loading...
   </p>
