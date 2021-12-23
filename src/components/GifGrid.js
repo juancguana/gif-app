@@ -13,7 +13,7 @@ const GifGrid = ({ category }) => {
       </h3>
       {loading && (
         <figure className='animate__animated animate__flash loading'>
-          <img src='/gif-logo.png' height={100} alt='Logo' />
+          <img src='/logo.png' height={100} alt='Logo' />
         </figure>
       )}
       <main className='card-grid'>
